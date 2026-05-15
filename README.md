@@ -56,7 +56,7 @@ All experiments use fixed random seeds and deterministic-operation flags (TF_DET
 **Generalisation Gap:**
 - Project 2 shows a notable gap (89.5% train vs 74.75% test), indicating sensitivity to out-of-distribution image conditions.
 - Projects 1 and 3 show smaller gaps with stable validation curves.
-**Known Limitations:**
+**Limitations:**
 
 - Project 2: 2,691 images is small for six-class image classification; transfer learning from a pretrained backbone (e.g. ResNet, EfficientNet) was not applied and would likely push accuracy above 90%. The dataset, not the architecture, is the constraint.
 - Project 3: A single one-month test window (January 2016) limits confidence in the headline MAE; a walk-forward evaluation across seasons would be more robust.
